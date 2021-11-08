@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300;1,500;1,700&family=Roboto:ital,wght@0,300;0,400;1,300&family=Zen+Antique&display=swap');
+
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Zen Antique', serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif ;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo{
+    padding: 10px;
+    margin-top: 2%;
+}
+
+
+header {
+    height: 80px;
+    width: 100%;
+    display: flex ;
+    background: rgb(29, 27, 27);
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex; 
+    list-style: none;
+    align-items: center;
+
+}
+
+ul li a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+main{
+    display: flex;
+    background-color: rgb(29, 27, 27);
+    height:calc(100vh - 100px) ;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.hero-img{
+    max-width: 600px;
+    height: auto;
+    margin-top: 10%;
+}
+
+.content-left{
+    width: 30%;
+}
+
+main h1{
+    font-size: 30px;
+    color:white;
+}
+
+main p{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(107, 97, 97);
+    line-height: 25.5px;
+    margin: 15px 0px;
+    font-weight: bold;
+}
+
+.cta{
+    padding: 10px 15px;
+    background-color: rgb(29, 27, 27);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.Register {
+    
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.Login  {
+    
+    padding: 5px 15px;
+    background-color:yellow;
+    color: black;
+    border: 1px solid white;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.navsur{
+    color: white;
+}
+
+#ser {
+    justify-content: space-around;
+    padding: 10px;
+    height: 40%;
+}
+
+
+.icon {
+    transform: rotate(90deg);  
+    margin: 90px; 
+}
+
+#arowtop {
+    border-radius: 25px; 
+}
+
+#arowbtn {
+    border-radius: 25px;  
+}
+
+.contener{
+    width:100%;
+    display: flex;
+    background-color: rgb(29, 27, 27);
+    color: white;
+    height: 80vh;
+}
+
+.contener{
+    padding: 20px;
+    border-top: 0.1px solid rgb(62, 65, 61);
+
+}
+
+.tital-img-3D {
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+    
+}
+
+.recipes{
+    
+    font-size: 25px;
+    /* border: 1px solid red; */
+    transform: translate(100%, 50%);
+
+}
+
+/* .contener h2 {
+    font-size: 36px;
+    line-height: 25.5px;
+    border: 1px solid red;
+} */
+
+.img-col img{
+    width: 180px;
+    padding: 25px;
+    margin-top: 40%;
+    /* justify-content: center; */
+    /* border: 1px solid red; */
+}
+#col {
+    bottom: -80%; 
+    right: 2100%;   
+    /* justify-content: right; */
+    position: relative;
+}
+
+#row {
+    bottom: -80%;
+    position: relative;
+}
+
+.img-col p {
+    text-align:center;
+}
+
+.img-col span{
+    color: yellow;
+}
+
+.part-3 {
+
+    width: 100%;
+    height: 340vh;
+    background-image: url(./img/images/bg.jpg);
+    background-repeat: no-repeat;
+}
+
+.part-3 .header-3{
+    margin-top: 10px;
+} 
+
+#tital{
+    /* position: relative; */
+    padding-top: 0px;
+    margin: 0px;
+    width: 40px;
+}
+
+.header-3{
+    padding: 50px;
+    margin-bottom: 100px;
+    text-align: center;    
+}
+
+.header-p{
+    font-weight: bold;
+}
+
+.Food-manu-left{
+    
+    width: 450px;
+    border: 10px solid black;
+    padding: 10px;
+    margin: 90px;
+    background-color: black;
+    color:white;
+    text-align: left;
+}
+
+.Food-manu-right {
+    width: 350px;
+    background-color: rgba(180, 155, 15, 0.678);
+    align-items: right;
+    padding: 50px;
+    margin-left: 590px;
+    margin-top: -350px;
+    /* border: 1px solid black; */
+    
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 45%;
+    
+}
+
+#about {
+    width: auto;
+    height: 250px;
+    
+}
+
+.totle-B3{
+    padding-top: 70px;
+}
+
+.totle-B3 h3{
+    font-size: 35px;
+}
+
+.totle-B3 p{
+   font: bold;
+}
+
+/* Our Blog */
+
+.blogs {
+
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.blogs #blog1{
+
+    height: auto;
+    width: auto;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+
+}
+
+.blogs #blog2{
+
+    height: auto;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    
+}
+
+.blogs #blog3{
+
+    height: auto;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+
+}
+
+#blog1 img{
+    width: 80%;
+    height:auto;
+    border-bottom: 1px solid rgb(102, 94, 94);
+}
+
+.blogs span{
+    background-color: black;
+    color: white;
+    font-size: 15PX;
+    font-weight: bolder;
+
+}
+
+#blog2 img{
+    width: 80%;
+    height:auto;
+    border-bottom: 1px solid black;
+}
+
+#blog3 img{
+    width: 80%;
+    height:auto;
+    border-bottom: 1px solid black;
+
+}
+
+.blogs #blog1{
+
+    width: 280px;
+    height: 20%;
+    padding: 4px;
+    border: 1px solid black;
+
+}
+
+.blogs #blog2{
+
+    width: 280px;
+    height: 20%;
+    padding: 4px;
+    border: 1px solid black;
+
+}
+
+.blogs #blog3{
+
+    width: 280px;
+    height: 20%;
+    padding: 4px;
+    border: 1px solid black;
+
+}
+
+#title-5{
+    font-size: 30px;
+}
+
+
+.client{
+
+    width: 35%;
+    height: 500px;
+    background-color: rgb(29, 27, 27);
+}
+
+
+#rock{
+    color:white;
+    font-size: 25px;
+    font: bold;
+    font: bolder;
+}
+
+#par-2{
+    color: white;
+}
+
+#img-client{
+    width: 40%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+#clienticon{
+    margin: 20px;
+    height: 20px ;
+}
+.client{
+    margin: auto;
+    border-radius:20px;
+    margin-top: 30px ;
+    display: block;
+}
+
+/* cent */
+.foot-top{
+    background-color:rgb(233, 179, 79);
+    width: 100%;
+    height: 110vh;
+    padding-top: 8%;
+    /* padding-left: 10%; */
+    /* margin-right: 10px; */
+    padding: 8%;
+   
+}
+
+.foot-top h4{
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.foot-top span{
+    color: white;
+}
+
+.input-1 input{
+    
+    width: 30%;
+    height: 10%;
+    box-sizing: border-box;   
+}
+
+#text-1 {
+    margin: 10px auto;
+    padding: 8px;
+    font-size: inherit;
+    color: white;
+    color: black;
+}
+
+#pTex{
+    padding: 18px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.class-btn{
+    padding: 10px 40px;
+    border: 1px solid black;
+    text-decoration: none;
+    padding-bottom: 20px;
+    background-color: red;   
+    color: black;
+    font-weight: bold;
+}
+   
+#id-img{
+    width: 50%;
+    height: auto;   
+    float: right;
+    margin-right: 100px;
+    padding: 30px;
+}
+
+.logoclass{
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-1 {
+    /* display: block;
+    border: 1px solid red;
+    margin-left: auto;
+    margin-right: auto; */
+    /* width: 50%; */
+    /* height: auto; */
+}
+
+#logo-1{
+    width: 20%;
+    margin-right: auto;
+    /* border: 1px solid red; */
+    margin-left: auto;
+    position: absolute;
+    left: 50%;
+    /* top: 50%; */
+    margin-top: 12%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+
+
+
+/* Unable to align img center */
+/* padding need to be cleared */
+
+.Tag-Home{
+    /* margin: 20px; */
+    padding: 20px;
+    justify-content: center;
+    background-color: rgb(233, 179, 79);
+    width: 100%;
+    height: 26vh;
+}
+
+.flex-container{
+    display: flex;
+    /* flex-direction: row; */
+    /* align-items: center; */
+    justify-content: center;
+    
+    
+}
+.submit-bt{
+    padding: 5px;
+    background-color:red;
+    color: black;
+    text-align: center ;
+    position: relative;
+
+}   
+
+#email{
+    padding: 6px;
+    text-transform: inherit;
+    width: 20%;
+}
+
+.input-lab{
+    height: 10px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+#Newsletter{
+    padding: 10px;
+    color: white;
+    font: bolder;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    height: 10vh;
+    width: 100%;
+    padding-top: 20px;
+}
+
+#tab-3D{
+    color: white;
+    font-weight: bold;
+}
